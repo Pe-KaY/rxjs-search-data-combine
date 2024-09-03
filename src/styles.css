@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html{
+    color-scheme: light dark;
+    color: black;
+}
+
+
+.conatiner{
+    height: 100vh;
+    display: flex;
+}
+
+/* search part */
+.searchpart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+input{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+
+.searchpart > div{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    height: 4rem;
+}
+
+/* userpart */
+.userpart{
+    background-color: aquamarine;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
